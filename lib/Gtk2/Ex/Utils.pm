@@ -1,7 +1,7 @@
 package Gtk2::Ex::Utils;
 ###############################################################################
 #  Gtk2::Ex::Utils - Extra Gtk2 Utilities for working with Gnome2/Gtk2 in Perl.
-#  Copyright (C) 2004  Open Door Software Inc. <ods@opendoorsoftware.com>
+#  Copyright (C) 2005  Open Door Software Inc. <ods@opendoorsoftware.com>
 #
 #  This library is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU Lesser General Public
@@ -22,7 +22,7 @@ use strict;
 BEGIN {
 	use Exporter;
 	use vars qw( $VERSION @ISA @EXPORT_OK %EXPORT_TAGS );
-	$VERSION = '0.08';
+	$VERSION = '0.09';
 	@ISA = qw( Exporter );
 	@EXPORT_OK = qw( );
     $EXPORT_TAGS{all}    = [ qw( ) ];
@@ -220,9 +220,7 @@ __END__
 
 =head1 BUGS
 
-Please report any bugs to the bug tracking system at:
-
- http://bugs.odsgnulinux.com
+ Please report all bugs to the mailing list.
 
 =head1 CONTRIBUTE
 
@@ -243,7 +241,7 @@ it's inclusion here, please do not hesitate to send it to the mailing list.
 =head1 COPYRIGHT AND LICENSE
 
  Gtk2::Ex::Utils - Useful utility functions for working with Gnome2/Gtk2 Perl.
- Copyright (C) 2004 Open Door Software Inc. <ods@opendoorsoftware.com>
+ Copyright (C) 2005 Open Door Software Inc. <ods@opendoorsoftware.com>
 
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public

@@ -2,7 +2,7 @@ package Gtk2::Ex::Constants;
 use strict;
 ###############################################################################
 #  Gtk2::Constants - Useful constants for working with Gnome2/Gtk2 Perl.
-#  Copyright (C) 2004  Open Door Software Inc. <ods@opendoorsoftware.com>
+#  Copyright (C) 2005  Open Door Software Inc. <ods@opendoorsoftware.com>
 #
 #  This library is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU Lesser General Public
@@ -109,7 +109,7 @@ use constant FALSE => 0;
 =cut
 
 use constant PAD_EDGE => 12;
-use constant PAD_WIDGET => 8;
+use constant PAD_WIDGET => 6;
 use constant PAD_ZERO => 0;
 
 =head2 :pack
@@ -207,9 +207,7 @@ __END__
 
 =head1 BUGS
 
-Please report any bugs to the bug tracking system at:
-
- http://bugs.odsgnulinux.com
+Please report any bugs to the mailing list.
 
 =head1 CONTRIBUTE
 
@@ -230,7 +228,7 @@ their inclusion here, please do not hesitate to send them to the mailing list.
 =head1 COPYRIGHT AND LICENSE
 
  Gtk2::Ex::Constants - Useful constants for working with Gnome2/Gtk2 Perl.
- Copyright (C) 2004 Open Door Software Inc. <ods@opendoorsoftware.com>
+ Copyright (C) 2005 Open Door Software Inc. <ods@opendoorsoftware.com>
 
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
